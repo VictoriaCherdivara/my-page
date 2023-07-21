@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url('background-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: rgba(51, 51, 51, 0.7); /* Change the alpha value (0.7 in this example) to adjust transparency */
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+}
+
+.introduction {
+  background-color: rgba(247, 247, 247, 0.8); /* Set the alpha value (0.8 in this example) to adjust transparency */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.introduction p {
+  margin-bottom: 10px;
+}
+/* Update the CSS for the name and role spans */
+.name {
+  font-size: 36px; /* Adjust the font size as needed */
+  font-weight: bold; /* Optionally, you can make the name bold */
+}
+
+.role {
+  font-size: 20px; /* Adjust the font size as needed */
+  display: block; /* Make sure the role text is on a new line below the name */
+  margin-top: 10px; /* Add some space between the name and the role */
+}
